@@ -59,14 +59,43 @@
       "name": "Mystery Plant - On Sale!",
       "image": "https://bloomscape.com/wp-content/uploads/2022/09/bloomscape_halloween_group_lifestyle-1_NO_HERO_USE-1-scaled-e1664376083540.jpg?ver=943866",
       "price": 1.99
+    },
+    {
+      "name": "pot plant",
+      "image": "https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1623959191-medium-plant-dieffenbachia-white-pot_2048x.jpg?crop=1xw:1xh;center,top&resize=480:*",
+      "id": 11
+    },
+    {
+      "name": "apple",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Sunflower_sky_backdrop.jpg/1200px-Sunflower_sky_backdrop.jpg",
+      "id": 12
+    },
+    {
+      "name": "apple",
+      "image": "fdsf",
+      "id": 13
+    },
+    {
+      "name": "apple",
+      "image": "https://www.thespruce.com/thmb/GknKO-Ur-JNP8WRIrbu2aCEG4Q4=/1772x1329/smart/filters:no_upscale()/-easy-to-grow-outdoor-plants-2132285-2-4ff12990aded4020832c8d39fe8074a3.jpg",
+      "id": 14
     }
   ],
   "posts": [
     {
-      "id": 1,
-      "name": "new plant",
-      "image": "https://bloomscape.com/wp-content/uploads/2021/12/Bloomscape_PitcherPlant_small_Charcoal-scaled.jpg?ver=639579",
-      "likes": 0
+      "name": "apple",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Sunflower_sky_backdrop.jpg/1200px-Sunflower_sky_backdrop.jpg",
+      "id": 1
+    },
+    {
+      "name": "red flower ",
+      "image": "https://www.thespruce.com/thmb/GknKO-Ur-JNP8WRIrbu2aCEG4Q4=/1772x1329/smart/filters:no_upscale()/-easy-to-grow-outdoor-plants-2132285-2-4ff12990aded4020832c8d39fe8074a3.jpg",
+      "id": 2
+    },
+    {
+      "name": "apple",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Sunflower_sky_backdrop.jpg/1200px-Sunflower_sky_backdrop.jpg",
+      "id": 3
     }
   ],
   "other": {
