@@ -26,7 +26,6 @@ function PlantRequestForm({ onSubmitFormData }) {
     })
       .then((res) => res.json())
       .then((data) => {
-        console.log(data);
         onSubmitFormData(data);
       });
   };

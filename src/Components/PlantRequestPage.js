@@ -18,6 +18,11 @@ function PlantRequestPage() {
       });
   }, []);
 
+  const handleRemoveDom = (plantId) => {
+    const plantsToDisplay = formData.filter((ele) => ele.id !== plantId);
+    setFormData(plantsToDisplay);
+  };
+
   return (
     <ul>
       <div>
@@ -26,10 +31,14 @@ function PlantRequestPage() {
       <div>
         <h1>Hey</h1>
         {formData.map((plant) => {
-          console.log(plant);
-          return <RequestedPlants key={plant.id} posts={plant} />;
+          return (
+            <RequestedPlants
+              key={plant.id}
+              posts={plant}
+              onDelete={handleRemoveDom}
+            />
+          );
         })}
-        {/* <PlantCard plants={formData[0]}></PlantCard> */}
       </div>
     </ul>
   );
