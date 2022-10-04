@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react";
 import PlantRequestForm from "./PlantRequestForm";
 import RequestedPlants from "./RequestedPlants";
-import PlantCard from "./PlantCard";
 
 function PlantRequestPage() {
   const [formData, setFormData] = useState([]);
@@ -29,7 +28,6 @@ function PlantRequestPage() {
         <PlantRequestForm onSubmitFormData={handleFormData} />
       </div>
       <div>
-        <h1>Hey</h1>
         {formData.map((plant) => {
           return (
             <RequestedPlants
