@@ -1,3 +1,18 @@
+@font-face {
+  font-family: "CfPlantsAndFlowersRegular-gvr1";
+  src: local("CfPlantsAndFlowersRegular-gvr1"),
+    url(./CfPlantsAndFlowersRegular-gvr1.ttf) format("truetype");
+}
+
+.header-title {
+  font-family: "CfPlantsAndFlowersRegular-gvr1";
+  font-size: 100px;
+}
+
+.green {
+  color: rgb(28, 116, 28);
+}
+
 :root {
   --green: rgb(39, 189, 39);
 }
@@ -31,8 +46,8 @@ nav a {
 
 nav a:hover,
 nav a:active {
-  color: rgb(25, 243, 131);
-  border-bottom: 2px solid rgb(25, 243, 131);
+  color: rgb(28, 116, 28);
+  border-bottom: 2px solid rgb(28, 116, 28);
 }
 
 nav a.active {
@@ -47,7 +62,7 @@ button {
 }
 
 .primary {
-  background-color: var(--green);
+  background-color: rgb(28, 116, 28);
   color: white;
 }
 
@@ -149,6 +164,14 @@ input:focus {
   margin-top: 0.5rem;
 }
 
+.about-page {
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+}
+
 @media (min-width: 768px) {
   .cards {
     display: flex;
@@ -171,4 +194,3 @@ input:focus {
     width: calc(20% - 2rem);
   }
 }
-
