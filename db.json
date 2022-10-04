@@ -1,0 +1,75 @@
+{
+  "plants": [
+    {
+      "id": 1,
+      "name": "Geo Plant",
+      "image": "https://bloomscape.com/wp-content/uploads/2022/09/bloomscape_zz-raven_md_lifestyle2-scaled.jpg?ver=939606",
+      "price": 15.99
+    },
+    {
+      "id": 2,
+      "name": "Raven ZZ Plant",
+      "image": "https://bloomscape.com/wp-content/uploads/2022/09/bloomscape_zz-raven_md_lifestyle-scaled.jpg?ver=939605",
+      "price": 25.98
+    },
+    {
+      "id": 3,
+      "name": "Sun Dew",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Drosera_spatulata_KansaiHabit.jpg",
+      "price": 5.29
+    },
+    {
+      "id": 4,
+      "name": "Whale Fin Sansevieria",
+      "image": "https://bloomscape.com/wp-content/uploads/2021/12/Bloomscape_SansevieriaMasoniana_medium_Charcoal-scaled.jpg?ver=640205",
+      "price": 12.11
+    },
+    {
+      "id": 5,
+      "name": "Dragon's Tongue",
+      "image": "https://bloomscape.com/wp-content/uploads/2022/09/bloomscape_creepycollection_xs_pileamoon-scaled.jpg?ver=939546",
+      "price": 10.37
+    },
+    {
+      "id": 6,
+      "name": "Pitcher Plant",
+      "image": "https://bloomscape.com/wp-content/uploads/2021/12/Bloomscape_PitcherPlant_small_Charcoal-scaled.jpg?ver=639579",
+      "price": 25
+    },
+    {
+      "id": 7,
+      "name": "Venus Fly Trap",
+      "image": "http://cdn.shopify.com/s/files/1/2589/0794/products/IMG_7955_1200x1200.jpg?v=1637352185",
+      "price": 7.99
+    },
+    {
+      "id": 8,
+      "name": "Pilea Pan Am",
+      "image": "https://bloomscape.com/wp-content/uploads/2022/09/bloomscape_pilea-pan-am_sm_lifestyle-scaled.jpg?ver=939575",
+      "price": 5.99
+    },
+    {
+      "id": 9,
+      "name": "Saraccenia",
+      "image": "https://cdn.shopify.com/s/files/1/1043/9998/products/image_0c719d57-7989-468b-9290-6039fc90669a.heic?v=1649108298",
+      "price": 18.82
+    },
+    {
+      "id": 10,
+      "name": "Mystery Plant - On Sale!",
+      "image": "https://bloomscape.com/wp-content/uploads/2022/09/bloomscape_halloween_group_lifestyle-1_NO_HERO_USE-1-scaled-e1664376083540.jpg?ver=943866",
+      "price": 1.99
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "name": "new plant",
+      "image": "https://bloomscape.com/wp-content/uploads/2021/12/Bloomscape_PitcherPlant_small_Charcoal-scaled.jpg?ver=639579",
+      "likes": 0
+    }
+  ],
+  "other": {
+    "name": "typicode"
+  }
+}

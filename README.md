@@ -1,70 +1,17 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Phase-2-App
+## Application
+We will be creating a plant-purchasing application. Users will be able to search for different plants (via a searchbar), view the plants, "like" and "unlike" them, and add them to their cart. Users will also be able to go to a special "plant request" page, request new plants via a submission page, and view other people's requests.
+### MVP Core Features
+This application will use at least eight components: App, Homepage, NavBar, AboutPage, PlantList, PlantCards, PlantRequests, and RequestedCards.
+There will be at least four client-side routes using React Router: routing to an About Page from the HomePage, routing to the Plant Request Page from the HomePage, and routing back to the Home Page from any other page. They will be able to do this via navigation buttons.
+We will be using a free House Plants RESTful API for the backend to hold the plant information for the purchase page. We will also be using our own API for the request page. Should anything go wrong with the House Plants API, we will instead be creating a second API to hold the plant information.
+Users will begin at a Home Page where they will see the plants available for sale. From here, they will be able to add plants to their cart. They will also be able to go to the website's About Page or Plant Request Page by clicking the corresponding buttons in the Navigation Bar. The About Page will provide a little bit of information about the site and its creators. But the Plant Request Page will allow users to request new plants via a controlled submittable form. They will also be able to delete their requests, view requests made by other people, and vote on requests. The ever-present Home Page button will take them bavk to the Home Page regardless of where they are in the site.
+### Component Tree Draft
+Component tree is subject to change as we add code, specially when we get into stretch goals. But for the MVP, with App at the top of the tree:
+App -> HomePage ->  NavBar    ->
+                    AboutPage ->
+                    PlantRequests -> RequestedPlants
+                    PlantList ->  PlantCards
+### Stretch Goals
+1. We hope to include a very special plant page where users can order experimental plants generated by object-recognizing technology. The site will recognize users or objects held to the camera by the users and create a new plant. [See legal disclaimers].
+2. Once the project is done, we hope to deploy it.
